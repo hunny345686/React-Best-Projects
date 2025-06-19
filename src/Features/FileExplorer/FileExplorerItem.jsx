@@ -37,7 +37,7 @@ const FileExplorerItem = ({ item, onAddNode }) => {
         className={`flex items-center py-1 px-2 rounded-md transition-all duration-150 
                     ${
                       isFolder
-                        ? "font-semibold text-gray-800 ursor-pointer hover:bg-gray-100"
+                        ? "font-semibold text-gray-800 cursor-pointer hover:bg-gray-100"
                         : "text-gray-700 hover:bg-gray-50"
                     } 
                     `}

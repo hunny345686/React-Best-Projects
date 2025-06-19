@@ -1,9 +1,9 @@
 import ToDoApp from "../Features/ToDoApp/ToDoApp";
-import CountdownTimer from "../Features/CountdownTimer/CountdownTimer";
 import ImageGallery from "../Features/ImageGallery/ImageGallery";
 import Accordion from "../Features/Accordion/Accordion";
 import FileExplorer from "../Features/FileExplorer/FileExplorer";
 import CompanyInfo from "../Features/CompanyInformation/CompanyInfo";
+import Countdown from "../Features/CountdownTimer/Countdown";
 
 export const tabsData = [
   {
@@ -16,7 +16,7 @@ export const tabsData = [
   {
     ID: 2,
     Name: "Countdown Timer",
-    Component: CountdownTimer,
+    Component: Countdown,
     Icon: "⌛",
     Desc: "Displays the remaining time in days, hours, minutes, and seconds until a specified target date or event",
   },
