@@ -4,6 +4,8 @@ import Accordion from "../Features/Accordion/Accordion";
 import FileExplorer from "../Features/FileExplorer/FileExplorer";
 import CompanyInfo from "../Features/CompanyInformation/CompanyInfo";
 import Countdown from "../Features/CountdownTimer/Countdown";
+import MiniTaskManager from "../Features/MiniTaskManager/MiniTaskManager";
+import SmartParking from "../Features/SmartParking/SmartParking";
 
 export const tabsData = [
   {
@@ -47,5 +49,19 @@ export const tabsData = [
     Component: CompanyInfo,
     Icon: "ℹ️",
     Desc: "A company description is a concise summary of a business, often used in a business plan or website, and includes elements like history, location, employee conut,URLs, and management",
+  },
+  {
+    ID: 7,
+    Name: "Mini Task Manager",
+    Component: MiniTaskManager,
+    Icon: "💽",
+    Desc: "This project is a mini task management system built with React.js. It allows users to add tasks and assign them a priority (Low, Medium, or High).",
+  },
+  {
+    ID: 8,
+    Name: "Smart Parking System",
+    Component: SmartParking,
+    Icon: "🚗",
+    Desc: "A smart parking system that allows users to park vehicles in designated spots based on type, with features to free up spots and display messages.",
   },
 ];
